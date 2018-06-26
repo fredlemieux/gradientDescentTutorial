@@ -1,4 +1,6 @@
 
+// This for some reason didn't work!! not sure why, maybe it is having the same file name as the class
+
 class Button{
   constructor(x, y, w, h, text, action){
     this.x = x;
@@ -6,7 +8,6 @@ class Button{
     this.w = w;
     this.h = h;
     this.text = text;
-
     this.action = action;
   }
 
