@@ -138,7 +138,7 @@ function draw() {
   fill(255);
   textAlign(LEFT,CENTER);
   text("Regression Formula: y = " + round(m*1000)/100 + "x + " + round(b*1000)/100, 390, 10);
-  text("Average Error: " + error, 390, 25);
+  text("Average Error (Cost): " + error, 390, 25);
   text("Learning Rate: " + learning_rate, 390, 40)
 }
 
